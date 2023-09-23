@@ -1,0 +1,37 @@
+@keyframes fadeinanimation {
+    0%{
+        opacity:0;
+        transform: translate3d(0,-20%,0) ;
+    }
+    100%{
+        opacity:1;
+        transform: translate3d(0,0,0) ;
+    }
+    
+}
+.img{
+    color:black;
+    background: linear-gradient(to right bottom,pink,rgb(127, 209, 127));
+    
+}
+.anime{
+    animation: fadeinanimation ease 3s;
+    animation-fill-mode: forwards;
+    animation-direction: top;
+}
+
+
+.body{
+    
+    height: 100vh;
+
+}
+
+.card-body{
+    background-color:rgba(130, 129, 128, 0.024);
+}
+
+
+
+
+

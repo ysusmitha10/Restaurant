@@ -1,0 +1,19 @@
+@keyframes example{
+    from { background-color: lightblue; }
+    to { background-color: lightpink; }
+}
+.body
+{
+    background-image:url("../../assets/images/restaurant.jpg");
+    background-position: center;
+    
+}
+.colour
+{
+    width:auto;
+    height:auto;
+    background-color:lightpink;
+    animation-name: example;
+    animation-duration: 10s;
+
+}
